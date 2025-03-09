@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>主页 - 常如意</title>
+	<meta name="keywords" content="主页">
+	<meta name="description" content="常如意">
+	<link rel="icon" type="image/ico" href="https://file.changruyi.com/resource/favicon.ico">
+</head>
+
+<body>
+	<div class="wrapper">
+		<section class="left" style="background-image: url('https://file.changruyi.com/resource/background.jpg');">
+		</section>
+		<section class="right">
+			
+			<div class="index_box">
+				<div class="index_txt">
+					<img src="https://file.changruyi.com/resource/avatar.jpg" alt="">
+					<h1>常如意</h1>
+					<p>欲买桂花同载酒，终不似，少年游。</p>
+					<div>
+						<ul class="index_nav">
+							<li><a href="https://blog.changruyi.com/" target="_blank">博客</a></li>
+							<li><a href="https://file.changruyi.com/resource/ruyiyunzhushou.jpg" target="_blank">如意云助手</a></li>
+							<li><a href="https://manage.changruyi.com/" target="_blank">如意云管理系统</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="right_foot">
+		<div>
+			<a href="http://beian.miit.gov.cn" target="_blank">陕ICP备2024023077号-1</a>
+		</div>
+	</footer>
+</body>
+</html>
+<style>
+.left {
+	width: 50%
+}
+
+.right {
+	width: 50%
+}
+
+* {
+    box-sizing: border-box
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+@font-face {
+    font-family: 'bodyfont';
+    src: url('https://npm.elemecdn.com/ethan4116-blog/lib/font/ZhuZiAWan.ttf');
+    font-display: swap;
+}
+
+body,
+.bfont {
+    font-family: bodyfont !important;
+}
+
+body {
+    margin: 0;
+    font-family: microsoft yahei;
+    color: #333;
+    font-size: 14px
+}
+
+a {
+    background: 0 0;
+    color: #000;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    color: #00b4fc;
+    outline: 0;
+}
+
+p {
+    margin: 0 0 10px
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.wrapper {
+    position: relative
+}
+
+.left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    display: block;
+    background-position: 50% 0;
+    background-color: #000
+}
+
+.right {
+    float: right
+}
+
+.right_foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: rgba(0, 0, 0, .25);
+    /* 毛玻璃透明效果，可根据需要调整透明度 */
+    backdrop-filter: blur(10px);
+    /* 毛玻璃模糊效果，可调整模糊程度 */
+    font-size: 16px;
+    display: flex;
+    /* 使用 flex 布局 */
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+    /* 水平居中 */
+}
+
+.right_foot p {
+    text-align: center;
+    /* 确保段落内的文本水平居中 */
+    margin: 0;
+    /* 去除默认的外边距，可能影响居中效果 */
+}
+
+.index_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.index_txt {
+    text-align: center;
+    font-weight: 300
+}
+
+.index_txt img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px
+}
+
+.index_txt h1 {
+    font-size: 30px;
+    margin: 20px 0
+}
+.displayData{
+    font-size: 16px;
+    font-weight: inherit;
+    line-height: 30px;
+    margin: 20px auto
+}
+.index_txt p {
+    font-size: 16px;
+    font-weight: inherit;
+    line-height: 30px;
+    margin: 20px auto
+}
+
+@media(max-width:768px) {
+    .index_txt p {
+        width: 100%
+    }
+
+    .index_txt {
+        width: 90%
+    }
+
+    .left {
+        display: none
+    }
+
+    .right {
+        width: 100%
+    }
+}
+
+.index_nav {
+    margin-top: 20px
+}
+
+.index_nav li {
+    display: inline-block;
+    margin: 6px;
+    font-size: 16px;
+}
+</style>
